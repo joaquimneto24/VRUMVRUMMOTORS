@@ -1,0 +1,152 @@
+body{ 
+    background: linear-gradient(#e74c3c,white);
+    header{
+        background-color: black;
+        background-size: 2040px 900px;
+        width: 2000px;
+        height: 500px;
+        background-position: center;
+        border-style: solid;
+        border-radius: 10px;
+    }    
+    button{
+        margin-left: 240px;
+    }      
+ 
+        & .Logo{
+            border-radius: 5px;
+            color: #fff;
+            font-size: 100px;
+            font-family:'Arial', sans-serif;
+            text-align: center;
+        }
+        & .Fabricantes{
+            padding: 12px;
+            border-radius: 5px;
+            background: linear-gradient(#e74c3c,gray,white);
+            font-size: 50px;
+            font-family:'Arial', sans-serif;
+            text-align: center;
+            border-style: solid;
+            transition: transform 0.3s ease;
+            }
+        .Fabricantes:hover{
+            transform: translateY(-10px);
+        } 
+
+        & .Agencias{
+            padding: 12px;
+            border-radius: 5px;
+            background: linear-gradient(#e74c3c, gray,white);
+            font-size: 50px;
+            font-family:'Arial', sans-serif;
+            text-align: center;
+            border-style: solid;
+            transition: transform 0.3s ease;
+            margin-left:350px
+            }
+
+        .Agencias:hover{
+            transform: translateY(-10px);
+        }    
+        
+        
+        & .Contatos{
+            padding: 12px;
+            border-radius: 5px;
+            background: linear-gradient(#e74c3c, gray,white);
+            font-size: 50px;
+            font-family:'Arial', sans-serif;
+            text-align: center;
+            border-style: solid;
+            transition: transform 0.3s ease;
+            margin-left: 370px;
+            }
+       
+        .Contatos:hover{
+            transform: translateY(-10px);
+        }
+
+
+        }
+        .redirecionamento{
+            display: inline-flex;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            margin-left: 200px;
+            
+            & .Ford{
+                border-style: solid;
+                border-radius: 50px;
+                background: linear-gradient(gray,white,black);
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(249, 1, 1, 0.91);
+                transition: transform 0.3s ease;
+            }
+            & .Volkswagen{
+                border-style: solid;
+                border-radius: 50px;
+                background: linear-gradient(gray,white,black);
+                margin-left: 20px;
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(249, 1, 1, 0.91);
+                transition: transform 0.3s ease;
+            }
+            & .Toyota{
+                border-style: solid;
+                border-radius: 50px;
+                background: linear-gradient(gray,white,black);;
+                margin-left: 20px;
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(249, 1, 1, 0.91);
+                transition: transform 0.3s ease;
+                img{
+                    width: 190px;
+                    height: 190px;
+                }
+                
+            }
+            & .chevrolet{
+                border-style: solid;
+                border-radius: 50px;
+                background: linear-gradient(gray,white,black);
+                margin-left: 20px;
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(249, 1, 1, 0.91);
+                transition: transform 0.3s ease;
+            }
+            & .Hyundai{
+                border-style: solid;
+                border-radius: 50px;
+                background: linear-gradient(gray,white,black);
+                margin-left: 20px;
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(249, 1, 1, 0.91);
+                transition: transform 0.3s ease;
+                img{
+                    width: 190px;
+                    height: 190px;
+                }
+            }
+           
+        }
+        footer{
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+            font-family: 'Arial', sans-serif;
+        }
+ 
